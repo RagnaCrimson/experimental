@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Data</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4 mb-4">Insert Data</h2>
+        <form action="create.php" method="POST">
+            
+            <div class="form-group">
+                <label for="V_Name">ชื่อหน่วยงาน :</label>
+                <input type="text" class="form-control" id="V_Name" name="V_Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V_Province">จังหวัด :</label>
+                <input type="text" class="form-control" id="V_Province" name="V_Province" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V_District">อำเภอ :</label>
+                <input type="text" class="form-control" id="V_District" name="V_District" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V_SubDistrict">ตำบล :</label>
+                <input type="text" class="form-control" id="V_SubDistrict" name="V_SubDistrict" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V_ExecutiveName">ชื่อผู้บริหาร :</label>
+                <input type="text" class="form-control" id="V_ExecutiveName" name="V_ExecutiveName">
+            </div>   
+
+            <div class="form-group">
+                <label for="V_ExeTell">เบอร์โทรศัพท์ :</label>
+                <input type="text" class="form-control" id="V_ExeTell" name="V_ExeTell">
+            </div>
+
+            <div class="form-group">
+                <label for="V_ExeEmail">E-mail :</label>
+                <input type="text" class="form-control" id="V_ExeEmail" name="V_ExeEmail">
+            </div>
+
+            <div class="form-group">
+                <label for="V_CoordinatorName">ชื่อผู้ประสานงาน :</label>
+                <input type="text" class="form-control" id="V_CoordinatorName" name="V_CoordinatorName">
+            </div>
+
+            <div class="form-group">
+                <label for="V_CooTell">เบอร์โทรศัพท์ :</label>
+                <input type="text" class="form-control" id="V_CooTell" name="V_CooTell">
+            </div>
+
+            <div class="form-group">
+                <label for="V_CooEmail">E-mail:</label>
+                <input type="text" class="form-control" id="V_CooEmail" name="V_CooEmail">
+            </div>
+            
+            <div class="form-group">
+                <label for="V_Sale">ทีมฝ่ายขาย :</label>
+                <input type="text" class="form-control" id="V_Sale" name="V_Sale" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="V_Date">วันที่ :</label>
+                <input type="date" class="form-control" id="V_Date" name="V_Date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="V_ElectricPerYear">การใช้ไฟฟ้า/ปี :</label>
+                <input type="number" class="form-control" id="V_ElectricPerYear" name="V_ElectricPerYear" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="V_ElectricPerMonth">การใช้ไฟฟ้า/เดือน :</label>
+                <input type="number" class="form-control" id="V_ElectricPerMonth" name="V_ElectricPerMonth" required>
+            </div>
+
+            <div class="form-group">
+                <label for="V_Status">สถานะ :</label>
+                <input type="text" class="form-control" id="V_Status" name="V_Status">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
